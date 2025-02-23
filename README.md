@@ -115,6 +115,11 @@ Statistics        Avg      Stdev        Max
 
 You can see a 7.5x performance improvement with the `local_accelerate` feature.
 
+## Prerequisites
+
+Redis in version higher than 3.2 is required since the script requires `replicate commands` feature.
+Rust in version higher than 1.80 is required since the crate uses `LazyLock`.
+
 ## Contributing
 
 Please feel free to open an issue or a pull request.

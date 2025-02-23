@@ -1,5 +1,8 @@
 # redis-rate-rs
 
+[![crates.io](https://img.shields.io/crates/v/redis-rate.svg)](https://crates.io/crates/redis-rate)
+[![docs.rs](https://docs.rs/redis-rate/badge.svg)](https://docs.rs/redis-rate)
+
 > This crate is based on a Redis script implementation of
 > "The generic cell rate algorithm" (GCRA) from [rwz/redis-gcra](https://github.com/rwz/redis-gcra).
 > And it's inspired by a similar Go package: [go-redis/redis_rate](https://github.com/go-redis/redis_rate).

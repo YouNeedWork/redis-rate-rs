@@ -5,6 +5,10 @@ edition = "2024"
 license = "MIT"
 description = "Rate limiting crate depends on Redis"
 readme = "README.md"
+documentation = "https://docs.rs/redis-rate"
+homepage = "https://github.com/slhmy/redis-rate-rs"
+repository = "https://github.com/slhmy/redis-rate-rs"
+
 
 [features]
 default = []
